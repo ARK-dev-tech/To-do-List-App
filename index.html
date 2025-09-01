@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tailwind Practice</title>
+  <link href="/src/style.css" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+
+</head>
+
+<!--BODY-->
+
+<body class="font-sans leading-6 text-gray-800 bg-[#f7f7f7] min-h-screen">
+
+  <!--CONTAINER-->
+  <div id="main-container"
+    class="w-full h-screen overflow-hidden grid grid-rows-[60px_1fr_70px] font-['lato',sans-serif]">
+
+    <!--HEADER-->
+    <header class="header  text-4xl  font-bold text-white bg-[#ff6b6b] flex justify-center items-center focus:outline-none">
+      To-Do List 
+    </header>
+
+
+
+    <!--MAIN CONTENT-->
+    <div id="main-content" class="main-content p-10 bg-[#f7f7f7] overflow-y-auto min-h-0 [scrollbar-gutter:stable_overlay]">
+      <!--Added Through Javascript-->
+    </div> <!--END MAIN CONTENT-->
+
+
+    <!--FOOTER-->
+    <div
+      class="sidebar bg-[#f7f7f7] border-t border-gray-200 flex justify-center items-center">
+
+      <!--ADD TASK BUTTON-->
+      <div id="add-btn"
+        class="bg-[#ff6b6b] w-14 h-14 rounded-full flex justify-center items-center text-white text-3xl font-bold hover:cursor-pointer hover:scale-105 transition">
+        +
+      </div>
+
+
+    </div>
+
+
+  </div> <!--END CONTAINER-->
+
+  <!--Window That opens when add task button clicked-->
+
+
+
+
+  <script type="module" src="/src/main.js"></script>
+</body> <!--END BODY-->
+
+</html>

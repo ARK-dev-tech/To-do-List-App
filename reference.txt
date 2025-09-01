@@ -1,0 +1,94 @@
+<body class="font-sans leading-relaxed bg-white text-gray-800">
+
+    <div class="container max-w-7xl mx-auto px-5">
+
+        <!--Main Header-->
+        <header class="main-header flex text-center justify-between items-center py-5">
+            <div class="logo">ARK</div>
+
+            <ul class="navbar flex gap-4 no-underline">
+                <li class="hover:font-bold transition-all"><a href="#">Services</a></li>
+                <li class="hover:font-bold transition-all"><a href="#">Testimonials</a></li>
+                <li class="hover:font-bold transition-all"><a href="#">Contact</a></li>
+                <li><button id="toggle-dark" aria-label="Toggle Dark Mode" class="cursor-pointer transition-all hover:shadow-sm hover:scale-[1.08]">🌙</button></li>
+            </ul>
+        </header>
+
+
+        <main>
+            <!--Hero Section-->
+            <section class="hero-section text-center py-14">
+                <h1 class="text-2xl font-bold ">Grow Your Business With Us</h1>
+                <p>We build fast, responsive, modern websites.</p>
+                <a href="services" class="btn inline-block bg-teal-700 text-white py-2.5 px-5 rounded-md mt-2.5 hover:scale-[1.02] transition-all">View Services</a>
+            </section>
+
+            <!--Services-->
+            <section id="services" class="services text-center mt-8">
+                <h2 class="text-2xl font-bold">Our Services</h2>
+
+                <div class="cards justify-center flex flex-wrap gap-5 mt-5">
+
+                    <article class="card flex-1 shrink basis-[30%] bg-[#f0f0f0] p-5 rounded-lg hover:bg-teal-700 hover:text-white hover:scale-[1.04] transition-all">
+                        <h3 class="text-[19px] font-bold">Web Design</h3>
+                        <p>Modern UI/UX sesponsive sites.</p>
+                    </article>
+
+                    <article class="card flex-1 shrink basis-[30%] bg-[#f0f0f0] p-5 rounded-lg hover:bg-teal-700 hover:text-white hover:scale-[1.04] transition-all">
+                        <h3 class="text-[19px] font-bold">Development</h3>
+                        <p>HTML, CSS, Javascript and API Intergration.</p>
+                    </article>
+
+                    <article class="card flex-1 shrink basis-[30%] bg-[#f0f0f0] p-5 rounded-lg hover:bg-teal-700 hover:text-white hover:scale-[1.04] transition-all">
+                        <h3 class="text-[19px] font-bold">SEO</h3>
+                        <p>Boost your search engine rankings.</p>
+                    </article>
+
+                </div>
+            </section>
+
+            <!--Testimonials-->
+            <section id="testimonials" class="testimonials text-center mt-10 bg-[#fafafa] p-5">
+                <h2 class="text-2xl font-bold">What Clients Say</h2>
+                <blockqoute class="testimonial italic">
+                    <p>Fast and professional. Loved the site!</p>
+                    <footer>-- Sarah Rose</footer>
+                </blockqoute>
+            </section>
+
+            <!--Contact-->
+            <section id="contact" class="contact text-center mt-10">
+
+                <h2 class="text-2xl font-bold">Contact Us</h2>
+
+                <form id="contact-form" class="flex flex-col items-center justify-center gap-2.5 mt-5" novalidate>
+
+                    <div class="form-group flex justify-center items-center gap-2.5">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your Name" class="p-2.5 border border-gray-300 rounded-md" required>
+                    </div>
+
+                    <div class="form-group flex justify-center items-center gap-2.5">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Your Email" class="p-2.5 border border-gray-300 rounded-md" required>
+                    </div>
+
+                    <div class="form-group flex justify-center items-center gap-2.5">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" placeholder="Your Message" class="p-2.5 border border-gray-300 rounded-md" required></textarea>
+                    </div>
+
+                    <button id="form-button" type="submit" class="w-[200px] bg-teal-700 text-white p-0.5 rounded-md transition-all hover:scale-105">Submit</button>
+
+                </form>
+                <p id="form-message" role="alert"></p> <!--What this do?-->
+            </section>
+
+        </main>
+
+        <!--Footer-->
+        <footer class="main-footer text-center mt-16 text-xs font-bold">
+            <p>&copy; 2025 My Services</p>
+        </footer>
+
+    </div> <!--Container-->

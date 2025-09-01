@@ -23,7 +23,7 @@
 - Git
 
 
-# Application Usage:
+# Application Usage
 
 - Click the '+' add button to add a new task
 - Enter Task Name and Details
@@ -36,7 +36,7 @@
 
 # View Live Demo 
 
-- **(https://ark-dev-tech.github.io/To-do-List-App/)**
+- **https://ark-dev-tech.github.io/To-do-List-App/**
 - Feel free to submit issues and enhancement requests!
 
 
